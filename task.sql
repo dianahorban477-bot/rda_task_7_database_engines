@@ -16,7 +16,7 @@ CREATE TABLE GeoIPCache (
 ) ENGINE=MEMORY;
 
 
-CREATE TABLE ProductDestination (
+CREATE TABLE ProductDescription (
     ID INT AUTO_INCREMENT,
     Description TEXT NOT NULL,
     ProductID INT NOT NULL,
